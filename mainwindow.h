@@ -17,6 +17,7 @@ private:
     QPushButton *m_button;
     QLabel *m_label;
     int m_clickCount = 0;
+    int m_maxClicks = 999;  // 最大点击数
 };
 
 #endif
